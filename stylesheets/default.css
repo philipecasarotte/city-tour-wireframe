@@ -1,0 +1,223 @@
+* {box-sizing:border-box;}
+
+body {font-size:100%;}
+
+.container-fluid {padding:0;}
+
+.navbar {margin-bottom:0;margin:0 auto;z-index:99999;background-color:black;font-size:1.0em;}
+.navbar .top-small-contact {background-color:#666;text-align:center;padding:5px 0;}
+.navbar.inner-pages {display:block;}
+.navbar a.navbar-brand {padding:0 0 0 10px;}
+.navbar a:hover {color:black;}
+.navbar a {color:white;}
+.navbar span.icon-bar {background-color:white;}
+.secondary-nav {float:right;margin:0;padding-left:0;}
+.secondary-nav li {float:left;display:inline;}
+.secondary-nav li a {font-size:1.0em !important;margin-top:7px !important;}
+.secondary-nav li a:hover {color:white;text-decoration:underline;}
+.secondary-nav li a, .quick-nav a {float:right;margin:auto 5px auto 5px;padding:5px 10px;border:solid 1px white;border-radius:10px;display:block;font-size:1.2em;}
+.secondary-nav li.social {font-size:2.4em;}
+.secondary-nav li.social a {font-size:1.8em;margin-top:4px;border:none;padding:0;}
+
+/*a, a:hover {color:white;}*/
+a small {display:block;}
+
+h1, h2, h3, h4, h5, h6 {font-family:"Oswald";}
+
+h1 {font-size:6em;}
+h2 {font-size:5em;margin-bottom:1em;}
+h3 {font-size:4em;}
+h4 {font-size:3em;}
+h5 {font-size:2em;}
+h6 {font-size:1.6em;}
+dt, dd, p, li, label, address {font-size:1.6em;}
+small {font-size:1.2em;}
+
+label {cursor:pointer;}
+
+section {padding:50px 0;}
+section .col img {width:100%;height:auto;}
+
+.modal {z-index:9999999999999999;}
+.modal-dialog {margin:50px auto;}
+
+section.even {background-color:#EFEFEF;padding:50px 0;}
+section.odd {background-color:#CCC;padding:50px 0;}
+
+/*Home*/
+#home-cta {background-color:#333;padding:200px 0;color:white;overflow:hidden;position:relative;text-align:center;position:relative;}
+#home-cta video {position:absolute;top:0;left:0;opacity:0.2;width:100%;height:100%;}
+#home-cta h1 {margin:0 0 0.5em 0;}
+#home-cta big {font:300 3em "Oswald";margin-top:0.5em;display:block;}
+#home-cta .col .slider {height:360px;overflow:hidden;}
+#home-cta .img-slider img, #app .col .slider .item {display:none;}
+#home-cta .img-slider img.active, #app .col .slider .item.active {display:block;}
+#home-cta .col img.apple {max-width:180px;}
+#home-cta a.btn {margin-bottom:20px;}
+#home-cta .container {position:relative;}
+#home-cta .container .home-first {margin-left:-100px;left:50%;top:-200px;position:absolute;}
+#home-cta .fixed-bottom {position:absolute;bottom:0;left:0;background-color:#333;text-align:center;padding:0.5% 0;color:#999;}
+
+#featured {background-color:#999;position:relative;}
+#featured h2 {margin:0px 0 20px 0;text-align:center;padding:2% 0;}
+#featured h3 {color:#333;}
+#featured h3:hover {color:black;}
+#featured .three-columns {margin-bottom:40px;}
+#featured .col img {width:100%;background:url(../images/bg/wide-light-gray.png) repeat;}
+#featured .col h3 small {display:block;color:white;}
+#featured .col h3 a {color:#333;}
+#featured .col a:hover, #featured .col a:hover img {text-decoration:none;opacity:0.8;}
+
+#credibility {padding:10px;text-align:center;background-color:#333;}
+#credibility p {font-size:1.4em;font-weight:bold;color:#CCC;}
+
+#highliths {background-color:#333;text-align:left;padding:0.5% 0;color:#999;}
+#highliths .fixed-bottom h5 {margin:0 0 0.4em 0;text-align:center;}
+#highliths .fixed-bottom big {font-size:1.4em;}
+
+/*Double Decker*/
+#double-decker {padding:100px 0 0 0;}
+#tour-cta {text-align:center;padding-bottom:25px;}
+#tour-cta footer {clear:both;padding-top:20px;}
+.top-price big, #tour-cta .row.info .col big {display:block;font-size:1.8em;}
+.even h2 {text-align:center;}
+.newspaper {float:left;min-height:300px;-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:40px;-moz-column-gap:40px;column-gap:40px;}
+img.max-width {width:25% !important;margin:0 auto;}
+.top-cta {text-align:center;padding-bottom:60px;}
+.top-price big {font-size:1.6em;}
+
+/*Tours*/
+#tours {padding-top:100px;}
+#tours h4 {color:#333;}
+#tours h4:hover {color:black;text-decoration:underline;}
+#tours .sidebar .list-group {font-size:1.6em;text-align:left !important;}
+#tours .row .col {margin-bottom:20px;}
+#tours .row .col .list-group {text-align:right;}
+#featured .list-group .list-group-item-info, #tours .row .col .list-group .list-group-item-info {background-color:#EFEFEF;color:black;}
+#tours .row .col .list-group strong {float:left;}
+#tours .row .col img {height:30%;}
+#tours .row .col small {font-size:1.2em;color:#666;}
+#featured .row .col footer, #tours .row .col footer {text-align:right;}
+#featured .row .col footer .btn-sm, #tours .row .col footer .btn-sm {float:left;}
+#tours .pager a, #blog .row .col a {color:black;}
+#tours .row.blog-detail img.share {max-width:380px;cursor:pointer;margin:20px auto;}
+#tours .form-inline {float:right;width:100%;}
+#tours .input-group {width:100%;}
+#tours .row.product-detail img.share {max-width:380px;cursor:pointer;margin:20px auto;}
+#tours .product-detail form {margin-bottom:20px;}
+#tours .product-detail form big {font-size:3em;}
+#tours .product-detail form .select-group {width:48%;float:left;margin-right:2%;}
+#tours .product-detail form .qty-group {width:50%;}
+#tours .product-detail form .btn {width:100%;margin-top:20px;}
+#tours .product-detail footer {text-align:center !important;}
+#tours .nav-tabs>li>a {color:#333;}
+#tours #my-tab-content {padding:2em;}
+
+/*Footer*/
+#app-cta {background-color:#666;text-align:center;}
+#app-cta a.btn {margin:10px 0;}
+#app-cta h4 small {color:#999;}
+#app-cta img {max-width:180px;margin:0 auto;}
+#app-cta h5 a {color:#333;}
+
+#footer {padding:20px 0 10px 0;}
+#footer footer {text-align:left;}
+#footer footer form {margin-bottom:10px;float:right;}
+#footer footer ul {margin:0 auto;padding:0;font-size:0.9em;}
+#footer footer ul li {display:inline;margin-right:10px;}
+#footer footer a, footer a:hover {color:black;}
+#footer footer small {display:block;float:left;width:100%;text-align:right;}
+#footer footer .social-bar {width:100%;margin:10px 0;text-align:right;}
+#footer footer .social-bar a {margin:0 2px;}
+#footer footer .social-bar a i {font-size:4em;}
+#footer footer .social-bar a:hover i {color:#ec971f;}
+#footer footer .alert-success {display:none;margin-top:10px;}
+#footer footer .payment {text-align:center;}
+#footer footer .payment img {max-width:280px;margin:0 auto;}
+
+/*Pop Ups*/
+#login-popup form input, #contact-popup form input, #contact-popup form textarea {margin-bottom:10px}
+#contact-popup form .alert-success {display:none;}
+
+#login-popup form {text-align:center;}
+#login-popup form p a {color:black;font-size:0.8em;}
+#login-popup form p big {margin:10px 0;display:block;}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	body {font-size:95%;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body {font-size:90%;}
+	
+    .quick-nav {display:none;top:50px;}
+    .navbar {display:block;top:0;}
+	
+	#footer footer {text-align:center;}
+	#footer footer form,
+	#footer footer .social-bar {float:none;margin:10px auto;width:auto;text-align:center;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {font-size:90%;}
+		
+    .quick-nav {display:none;top:50px;}
+    .navbar {display:block;top:0;}
+	
+	.navbar li.hidden-sm a {font-size:0.8em;padding-top:5px;padding-bottom:5px;color:#666;}
+	
+	#footer footer {text-align:center;}
+	#footer footer form,
+	#footer footer .social-bar {float:none;margin:10px auto;width:auto;text-align:center;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	body {font-size:80%;}
+	
+	#featured .row .col footer, #tours .row .col footer {text-align:center;margin-bottom:20px;float:left;width:100%;}
+	#featured .row .col footer .btn-sm, #tours .row .col footer .btn-sm, #tours .row .col footer .btn-warning {float:left;width:100%;margin-bottom:5px;}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
